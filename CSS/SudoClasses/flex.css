@@ -1,0 +1,31 @@
+.container{
+    border: 2px solid black;
+    display: flex;
+
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
+.container1{
+    border: 2px solid blue;
+    display: flex;
+    background-color: peru;
+
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    color: white;
+    margin: 5px;
+    text-align: center;
+    line-height: 100px;
+    
+}

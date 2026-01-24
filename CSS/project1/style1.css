@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+  font-family: "Lato", sans-serif;
+  background-image: url("/CSS/WhatsApp\ Image\ 2026-01-22\ at\ 15.46.44.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+nav{
+    background-color: rgba(0, 0, 0, 0.232);
+    backdrop-filter: blur(10px);
+    color: white;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.2); */
+    
+}
+.abc{
+ margin: 0;
+ padding: 5px;
+ width: 5px;
+ 
+}
+
+.nav-option{
+    display: flex;
+
+}
+ul li{
+    margin-left: 20px;
+    list-style: none;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+ul li a:hover{
+    color: aqua;
+}
+
+.container{
+    min-height: 100vh;
+    background-color:rgba(0, 0, 0, 0.103);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-position:center ;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.card{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.248);
+    backdrop-filter: blur(10px);
+    border: 1px solid white;
+    text-align: center;  
+    padding: 40px;
+    width: 700px;
+    border-radius: 1rem;
+    
+}
+.card h1{
+    font-size: 40px;
+    padding: 20px;
+}
+.card p{
+    font-size: 18px;
+    line-height: 1.8px;
+}
+
+@media(max-width:800px){
+    .card{
+        width: 300px;
+    }
+}
+@media (max-width:466px){
+    .card{
+        width: 200px;
+        padding: 45px;
+    }
+}

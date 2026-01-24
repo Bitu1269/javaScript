@@ -1,0 +1,29 @@
+.top{
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.product{
+    background-color: orange;
+    width: 650px;
+    height: 40px;
+    text-align: left;
+    margin: 30px;
+    font-size: 25px;
+    /* padding: 1px; */
+}
+.card{
+    background-color: whitesmoke;
+    border: 2px solid black;
+    width: 30%;
+    height: 100px;
+    margin: 30px;
+    padding: 5px;
+}
+.card p{
+    font-size: 16px;
+    /* text-align: center; */
+}

@@ -1,0 +1,22 @@
+button{
+    background-color: rgba(255, 0, 153, 0.806);
+    color: white;
+    padding: 10px 20px;
+
+}
+/* button:hover{
+    background-color:red;
+} */
+button:hover{
+    background-color: red;
+}
+a:visited{
+    background-color: red;
+}
+input:focus{
+    border: 2px solid red;
+
+}
+li:last-child{
+    color: red;
+}
